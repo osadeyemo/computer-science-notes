@@ -1,0 +1,65 @@
+open text editor
+$ nano (filename)
+press ctrl X to exit text editor
+
+creates a new file inside the working directory
+$ touch (filename)
+
+echo "Hello Command Line" >> hello_cli.txt to create 
+a new file named hello_cli.txt and add Hello Command 
+Line to that file.
+$ echo Hello Command Line >> hello_cli.txt
+
+without changing directories from bicycle-world-ii/, 
+make a file in the bmx/ directory called tricks.txt.
+$ touch bmx/tricks.txt
+
+print the contents of a file to the terminal
+$ cat (filename)
+
+allows you to run command at root level/gives you adminitration previleges
+$ sudo 
+
+change directory
+$ cd
+
+change to home directory
+$ cd ~
+
+change directories up one levels
+$ cd ..
+
+change directories up two levels
+$ cd ../.. 
+
+creates a new directory in the working directory
+$ mkdir (directory name)
+
+present working directory
+$ pwd
+
+list files in a directory
+$ ls
+
+list hidden files in a directory
+$ ls -a
+
+delete a file in a directory
+$ rm filename
+
+show the content of a file
+$ cat filename
+
+show buckets in AWS S3 
+$ aws s3 ls
+
+make bucket in AWS S3
+$ aws s3 mb s3://buketname
+
+check instance metadata
+$ curl http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key/
+
+change directory to check authorize keypair
+$ cd .ssh
+$ cd .ssh/authorized_keys
+
