@@ -13,6 +13,15 @@ $git status
 add files from the working directory to the staging area
 $ git add (filename)
 
+stages all changes
+$ git add -A 
+
+stages new files and modifications, without deletions
+$ git add . 
+
+stages modifications and deletions, without new files
+$ git add -u 
+
 show the difference between the working directory and the staging area
 $ git diff
  
@@ -20,4 +29,8 @@ permanently stores file changes from the staging area in the repository
 $ git commit -m "Comment"
 
 shows a list of all previous commits
-$ git log 
+$ git log
+
+pus commit to github repository
+$ git push -u origin master
+
