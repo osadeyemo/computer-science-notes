@@ -1,0 +1,5 @@
+#code rules
+#1. never mix tab and spaces
+#2. each line length should be less than 80 characters
+#3. comments should be 72 character per line
+#4. use blank lines between sections

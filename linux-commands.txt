@@ -56,6 +56,13 @@ $ aws s3 ls
 make bucket in AWS S3
 $ aws s3 mb s3://buketname
 
+Copy file from ec2 to S3
+use the following command below
+/var/www/html is the file path on ec2
+s3://test-webservers/wordpress-files is the bucket/folder path in S3
+aws s3 cp Your_Ec2_Folder s3://Your_S3_bucket/Your_folder --recursive
+$ aws s3 cp /var/www/html/ s3://test-webservers/wordpress-files --recursive
+
 check instance metadata
 $ curl http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key/
 

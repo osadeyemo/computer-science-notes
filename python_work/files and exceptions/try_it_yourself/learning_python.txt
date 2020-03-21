@@ -1,0 +1,9 @@
+In Python you can create strings
+In Python you can create lists
+In Python you can create dictionaries
+In Python you can create for loops
+In Python you can create if statement
+In Python you can create while loops
+In Python you can create functions
+In Python you can create class
+In Python you can create modules

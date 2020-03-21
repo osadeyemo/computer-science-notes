@@ -1,0 +1,12 @@
+open text editor in linux terminal
+$ nano 
+press ctrl X to exit text editor
+
+allows you to run command at root level/gives you adminitration previleges
+$ sudo 
+
+change directory
+$ cd
+
+present working directory
+$ pwd
