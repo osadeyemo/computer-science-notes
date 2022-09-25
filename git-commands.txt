@@ -31,6 +31,6 @@ $ git commit -m "Comment"
 shows a list of all previous commits
 $ git log
 
-pus commit to github repository
+push commit to github repository
 $ git push -u origin master
 
